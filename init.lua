@@ -11,6 +11,7 @@ require "statuslets.statuslets"
 require "volume.volume"
 require "weather.weather"
 require "speaker.speaker"
+-- require "mouse.mouseMove"
 
 -- Private use
 if (hs.host.localizedName() == 'kaboom的MacBook Pro') then
