@@ -1,0 +1,1 @@
+hs.hotkey.bind({"cmd", "shift"}, "return", function() jumpcut:popupMenu(hs.mouse.getAbsolutePosition()) end)
