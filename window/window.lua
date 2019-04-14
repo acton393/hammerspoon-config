@@ -130,10 +130,10 @@ hs.hotkey.bind({"ctrl",        "cmd", "shift"}, "Up",    hs.fnutils.partial(winr
 hs.hotkey.bind({"ctrl",        "cmd", "shift"}, "Down",  hs.fnutils.partial(winresize, "down"))
 
 -- Thirds of the screen
-hs.hotkey.bind({"ctrl", "alt", "cmd"}, "Left",  left_third)
-hs.hotkey.bind({"ctrl", "alt", "cmd"}, "Right", right_third)
-hs.hotkey.bind({"ctrl", "alt", "cmd"}, "Up",    up_third)
-hs.hotkey.bind({"ctrl", "alt", "cmd"}, "Down",  down_third)
+hs.hotkey.bind({"ctrl", "alt", "shift"}, "Left",  left_third)
+hs.hotkey.bind({"ctrl", "alt", "shift"}, "Right", right_third)
+hs.hotkey.bind({"ctrl", "alt", "shift"}, "Up",    up_third)
+hs.hotkey.bind({"ctrl", "alt", "shift"}, "Down",  down_third)
 
 -- Maximized
 hs.hotkey.bind({"ctrl", "alt", "cmd"}, "F",     hs.fnutils.partial(winresize, "max"))
